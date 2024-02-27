@@ -1,0 +1,49 @@
+button{
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.3em;
+}
+body{
+    background-color: rgb(255, 255, 128);
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.wrapper{
+    background-color: gray;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.orange{
+    background-color: #FF9500;
+    color: white;
+}
+
+.gray{
+    background-color: #505050;
+    color: white;
+}
+.zero{
+    background-color: #505050;
+    color: white;
+    padding: 0.5em 5rem;
+    
+    
+}
+.resultado{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1em;
+    font-size:3.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
